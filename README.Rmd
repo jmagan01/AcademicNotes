@@ -1,0 +1,12 @@
+---
+title: "Academic Notes"
+author: "MSc Manuel Magana, PhD Alberto Dorantes"
+date: "November 10, 2017"
+output: html_document
+---
+
+## Academic Notes Project
+
+Welcome to the project of academic notes
+
+This is the very first version of the welcome page of the notes.
