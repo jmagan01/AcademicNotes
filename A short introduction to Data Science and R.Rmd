@@ -5,7 +5,7 @@ date: "Summer 2018"
 output: html_document
 ---
 
-## A short introduction to Data Science and R
+## 1.1 A short introduction to Data Science and R
 
 There is not a formal definition for **Data Science**, however it can be seen as the intersection between statistics, computer science and any knowledge domain that demands analysis of big volumes of information such as Banking, Finance, Economics, Genomics, Astronomics, etc.
 
