@@ -13,7 +13,7 @@ This is the very first version of a collection of notes aimed to capture the bas
 
 ### Outline
 
-#### A short introduction to Data Science and R
+#### [A short introduction to Data Science and R](https://github.com/jmagan01/DataScienceHandbook/blob/master/A%20short%20introduction%20to%20Data%20Science%20and%20R.Rmd)
 
 ### Part I - Statistics
 
@@ -57,5 +57,5 @@ This is the very first version of a collection of notes aimed to capture the bas
 
 ### Annex
 
-#### Setting up R and RStudio 
+#### [Setting up R and RStudio](https://github.com/jmagan01/DataScienceHandbook/blob/master/Setting%20up%20R%20and%20RStudio.Rmd) 
 

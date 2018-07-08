@@ -2,12 +2,7 @@
 title: "A short introduction to Data Science and R"
 author: "MSc J. Manuel Magana Arias"
 date: "Summer 2018"
-output:
-  html_document: default
-  fig_caption: yes
-  word_document: default
-params:
-  name: Manuel
+output: html_document
 ---
 
 ## A short introduction to Data Science and R

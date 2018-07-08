@@ -2,7 +2,11 @@
 title: "Setting up R and RStudio"
 author: "MSc J. Manuel Magana Arias"
 date: "Summer 2018"
-output: html_document
+output:
+  html_document: default
+  fig_caption: yes
+params:
+  name: Manuel
 ---
 
 ## Setting up R
