@@ -1,5 +1,5 @@
 ---
-title: "Academic Notes"
+title: "Data Science Handbook"
 author: "MSc Manuel Magana, PhD Alberto Dorantes"
 date: "Summer 2018"
 output: html_document
@@ -7,6 +7,48 @@ output: html_document
 
 ## Data Science Handbook
 
-Welcome to the 'Data Science Handbook' project. This is the very first version of a collection of notes aimed to capture an initial review of the methods available in the area of Predictive Analytics from both, Finance Econometrics and Data Science techniques.
+Welcome to the 'Data Science Handbook' project. 
 
-[a link](https://github.com/jmagan01/DataScienceHandbook/blob/master/Outline.Rmd)
+This is the very first version of a collection of notes aimed to capture the basics of the methods and techniques from the areas of Predictive Analytics and Data Science. We focus on the domain of Finance and Econometrics.
+
+## Outline
+
+## Part I - Statistics
+
+### 1.1 Basic Statistics
+
+### 1.2 Normal Distribution
+
+### 1.2 Hypothesis testing
+
+### 1.3 Linear regression
+
+### 1.4 Introduction to Time Series
+
+## Part II - Machine Learning
+
+### 2.1 Multiple regression
+
+### 2.2 Multicollienarity
+
+### 2.3 Logistic regression
+
+### 2.4 Cross Validation
+
+### 2.5 Decision Trees
+
+### 2.6 Resampling methods: Bootstrapping & Bagging
+
+### 2.7 Support Vector Machines
+
+### 2.8 Clustering methods
+
+### 2.9 Dimension Reduction methods
+
+## Part III - Data Science applications
+
+### 3.1 Introduction to Big Data Applications
+
+### 3.2 Databases, Datawarehousing & Data Lakes
+
+### 3.2 Introduction to Data Visualisation
