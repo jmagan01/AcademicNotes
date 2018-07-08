@@ -5,7 +5,7 @@ date: "Summer 2018"
 output: pdf_document
 ---
 
-#Part I - Statistics
+# Part I - Statistics
 
 ## 1.1 Basic Statistics
 
@@ -17,7 +17,7 @@ output: pdf_document
 
 ## 1.4 Introduction to Time Series
 
-#Part II - Machine Learning
+# Part II - Machine Learning
 
 ## 2.1 Multiple regression
 
@@ -37,7 +37,7 @@ output: pdf_document
 
 ## 2.9 Dimension Reduction methods
 
-#Part III - Data Science applications
+# Part III - Data Science applications
 
 ## 3.1 Introduction to Big Data Applications
 
