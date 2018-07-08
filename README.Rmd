@@ -31,7 +31,7 @@ This is the very first version of a collection of notes aimed to capture the bas
 
 #### 2.2 Multicollienarity
 
-#### 2.3 Logistic regression
+#### [2.3 Logistic regression](https://github.com/jmagan01/DataScienceHandbook/blob/master/2.3%20Logistic%20regression.Rmd)
 
 #### 2.4 Cross Validation
 
