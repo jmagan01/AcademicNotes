@@ -1,0 +1,187 @@
+---
+title: "Setting up R and RStudio"
+author: "MSc J. Manuel Magana Arias"
+date: "Summer 2018"
+output: html_document
+---
+
+## Setting up R
+
+Follow the steps below to complete the installation of *R*.
+
+1) Go to the website of **The Comprehensive R Archive Network** at <https://cran.r-project.org/> where the latest version of *R* is available. At the moment of writing this document the latest version is *R-3.4.1* for Windows and Mac.
+
+2) Find the link and download to the appropriate binary setup file for your operating system (Windows or Mac). Current binary versions of *R* run on Windows 7 or later, including on 64-bit versions. Windows XP is no longer supported.
+
+3) Open the downloaded `.exe` file and Install *R*. I suggest to accept the standard installation.
+
+## Setting up RStudio
+
+*RStudio* is **not** a programming language, but an integrated development environment (IDE) for *R*. In other words, *RStudio* is the place where you will create your computer programs using the *R* language so the computer can read and execute your instructions.
+
+Before installing *RStudio* it is important to make sure that you have completed the installation of *R* in your computer, otherwise you could not use *RStudio* functionally. Here are some simple steps to follow to complete the installation of *RStudio*:
+
+1) Go to the webpage <https://www.rstudio.com/products/RStudio/> where you will find the latest version of the software. At the moment of writing this document the latest version is *RStudio 1.0.153*.
+
+2) Scroll down to the butom of the page and find the list of *Installers for Supported Platforms*. 
+
+3) Find the appropriate installer file for your operating system (Windows or Mac) and download it.
+
+4) Once the download has been completed run the `.exe` file. Proceed with the standard installation.
+
+It is advised to reboot your computer once the installation has been completed.
+
+## Working in RStudio
+
+Once you have completed the installations, you can open *RStudio* as any other application in your computer. The predefined view includes some internal windows called *panes*. There are three panes setted up by default:
+
+1. The Console.
+2. The Enviroment and History.
+3. The Files, Plots, Packages and Help pane.
+
+There is a fourth pane that we will introduce later, the *R script and data view* window.
+
+![Predefined view of R Studio](C:\Users\Lenovo T20\OneDrive for Business\OD\Academic Material\Programacion Financiera\workshops R\Workshop Zero Prework\pics\pic1_rstudio_screen.png)
+
+### The Console
+
+The *console* is where you will type the instructions to communicate with the computer. Those instructions are called *functions*. At this point, since you just installed *R*, you are limited to the use of the *functions* included in the *base packages* however this should be enough to begin your journey as *R* developer.
+
+In the *console* you will also see the output or response of the function you have instructed the computer to execute, except if the output is a chart, which will be presented in the *Plots* tab.
+
+### The Enviroment and History
+
+The *Enviroment* tab is the place where you will find all the active *objects* created by the *functions* you coded in the *console*. An object can be as simple as a variable storing a particular value, a table with data or any other *R* object such as a *list*, a *matrix* or even your own *functions*. At the moment, you should see a message in the *Enviroment* window saying *Enviroment is empty*. This is fine since we have not yet created any *object*.
+
+Next to the *Enviroment* tab, you will find the *History* tab, which shows the list of functions you have typed in the *cosole* so far. At this point the *History* should be empty.
+
+### The Files, Plots, Packages and Help pane
+
+The *Files* tab shows all the files and folders in your *working directory*. We will see later how to change your *working directory*. The *Files* pane allows you to click in any folder and see subfolders and additional files saved there as if you were on a PC window. Next to the *Files* tab you will find the *Plots* tab, where you will see any graphs created through the use of data visualisation *functions*.
+
+Moving to the right side of the pane you will see the *Packages* tab which shows the list of *R* packages available in your *R* session. Finally, the *Help* tab is the place we will go when seeking for additional information and support.
+
+## Creating you first R script in the Console
+
+Now that you are familiar with the basics of *R Studio* we can start creating our first script in *R*. Let's start for the very beggining and let's imagine that all we want from our computer programm is to display the text "Hey Jude" in the screen so in the *Cosole* we write:
+
+```{r}
+print("Hey Jude")
+```
+
+If you got it right, the computer will reply showing the desired message. In this case we have used the `print` function to display the desired message, which is in quotation marks. I have chosen to display the text "Hello world" for no reason, but you can chose any text of your preference such as "This is awesome!" or "Hello world". You will notice that if either, the brackets or the quotation marks are omited *R* will complain about it giving you an error message.
+
+You can think about the memory of a computer as a series of *boxes* which might have all sort of things such as numbers, letters, records, etc. You can *reserve* one of those *boxes* by giving it a name, then you can save any value or text in it. This is the concept of what we call a *variable*.
+
+Let's try to create a program that is a little bit more complex. Our objective will be to code a program that when it runs it will display the message and question "Hello, what's your name?: ", then the user will type a text in the keyboard and the program will reply with the message "Welcome to R Studio!"
+
+We can start by trying to create a variable called `word` which value will come from whatever the user types in the keyboard. For this purpose I use the function `readline` and I assign the captured value to the new variable `word`.
+
+```{r}
+word <- readline(prompt = "Hello, what's your name?: ")
+```
+
+```{r, include=FALSE}
+word <- params$name
+```
+
+You have created your first *variable* so it should be listed in the *Enviroment*. Since I have typed "`r params$name`" this is the string that has been assigned to variable `word`. 
+
+In *R* the assignment operator `<-` also known as the back arrow operator, can be read as *get*, so the line of code above can be read as `word` gets whatever the user keys in as response to the promt "Hello, what's your name?:". 
+
+You can *call* the value of the variable `word` in a second line and display it's content in the *console* using the `print` function.
+
+```{r}
+print(word)
+```
+
+The `print` function is not really essential to display the value of your variable, you can simply *call* it by name.
+
+```{r}
+word
+```
+
+You can improve your program by including a more welcoming message in the output:
+
+```{r}
+print(paste("Hi", word, "Welcome to R Studio!"))
+```
+
+Note that we have used the `paste` function to concatenate the word "Hi", the value of variable `word` and the text "Welcome to R Studio".
+
+## Running your R program
+
+We have just created a very simple computer program that asks the user's name and replies back with a welcoming message. Not a very exciting program but it is a start. Now that you have tested several lines of code in the *console*, you have decided that the best design for your program looks like the lines below.
+
+```{r, results="hide"}
+word <- readline(prompt = "Hello, what's your name?: ")
+print(paste("Hi", word, "Welcome to R Studio!"))
+```
+
+Now, the question how do you run this program in one go? Running scripts line-by-line in the *console* is part of the design, however once you are happy with the performance of the program doing this is not practical any more.
+
+As we mentioned before, there is a pane in *RStudio* that we have not introduced yet, this is the *R script and data view* window. We will call it the *R script* pane for short. This is the place where you will build the code that you want to keep in your program. If you are a *Stata* user this would be like the *do-file* editor.
+
+To create a new *R script* you can go to *File*->*New*->*R Script* or simply type *Ctrl+Shift+N*. A new empty window will open in the top left side of the screen, this is the *R script* pane. Now you can type the line of codes that you want to include in your program or simply copy and paste from the *Console*. 
+
+**You do not need to do this at the very end of the process, instead it is advised to build your R script while testing lines of code in the Console and keep the ones that work as expected**
+
+```{r, results="hide"}
+word <- readline(prompt = "Hello, what's your name?: ")
+print(paste("Hi", word, "Welcome to R Studio!"))
+```
+
+Save your script. You can do this by clicking in the *save* icon in the top left corner of the screen or by typing *Ctrl+S* in your keyboard. It is advised to save your scripts under the *R* folder that was created in the *Documents* folder in your local drive when *R* was installed. I have created a subfolder there called *myScripts*. I save my file as *Welcome.R* so the final path looks like the one below: 
+
+*C:/Users/Lenovo T20/Documents/R/myScripts/Welcome.R*
+
+Your path might be a slighly different depending on the set up of your computer.
+
+There are many ways to run your program, one of the options is by clicking in the *Source* button in the top right corner of the *R Script* pane as indicated in the figure below.
+
+![Source your R script](C:\Users\Lenovo T20\OneDrive for Business\OD\Academic Material\Programacion Financiera\workshops R\Workshop Zero Prework\pics\pic2_rstudio_screen.png)
+
+Another way of running your program is calling it from the *Console* directly. You can do this even when your *R script* is closed. Close your script and then use `source` function to load your program from file. For example:
+
+```{r, eval=FALSE}
+source('C:/Users/Lenovo T20/Documents/R/myScripts/Welcome.R')
+```
+
+My recommendation is that in most cases, you should use this option. This way of calling programs will be very useful later when we create and call our own *R* functions.
+
+## Basic data types and initialisation
+
+There is a saying, which authorship has been granted to John Chambers, that helps to understand the *R* world in simple terms:
+
+*Everything that exists in R is an object and everything that happens is a function call*
+
+To make the best of the *R* language, you will need a strong understanding of the basic object types and how to operate on those. Depending on it's nature, every object belongs to a different *class* and every *class* belongs to a specific type of *data structure*. To find out what the *class* of the variable `word` is we can use the `class` function and the computer replies back displaying the *class* of the object.
+
+```{r}
+class(word)
+```
+
+In this case the variable `word` belongs to the `character` *class*, which makes sense because it is a just a piece of text. When executing the `class` function you can think about it like a way to ask the computer *what is it?*. In *R* when an object has a *class* attribute we say that this object *inherits* to that particular *class* type.
+
+*R* has many *data structures*, these include `vector`, `list`, `matrix`, `data frame`, `factors` and `tables`. However, vectors are the most common and basic data structure and can be of two types: `atomic vectors` or `list`.
+
+Atomic vectors can be either a vector of *class* `character`, `logical`, `integer` or `numeric` so, in our example the varible `word` is actually a *vector* of *class* `character`.
+
+It is very important that you understand the differences between different types of classes, going forward you will create and manipulate many objects and it is key that you understant the limitations and properties of each *class* so you manipulate the objects in the appropiate way. A lack of understanding in this area is a common source of frustration among students and beginners so my advice to invest some extra time doing you own research and reading more about it.
+
+There is another way to assign a value to a variable apart from using the readline function. We can write for instance:
+
+```{r}
+word <- "This is some random text"
+```
+
+In programming this is called *assignment* and has the effect of setting the 'value' "This is some random text" to the variable `word`. The assignment operation can be as complex as you want, for example, let's say that I want to assign my full name to a new variable `fullname`, however this will be the concatenation of my first name and my surename which are two other `character` variables, so my script would look like something like this.
+
+```{r}
+firstname <- "Manuel"
+surename  <- "Magana"
+fullname  <- paste(firstname, surename)
+print(fullname)
+```
+
+The back arrow operator is also used to *initialise* variables. In *R*, as in many other computer languages, a variable is defined by the firt assignment to that variable, that is the first time you put something into it.

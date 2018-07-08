@@ -1,6 +1,6 @@
 ---
 title: "Data Science Handbook"
-author: "MSc Manuel Magana, PhD Alberto Dorantes"
+author: "MSc J. Manuel Magana Arias, PhD Alberto Dorantes"
 date: "Summer 2018"
 output: html_document
 ---
@@ -9,9 +9,11 @@ output: html_document
 
 Welcome to the 'Data Science Handbook' project. 
 
-This is the very first version of a collection of notes aimed to capture the basics of the methods and techniques from the areas of Predictive Analytics and Data Science. We focus on the domain of Finance and Econometrics.
+This is the very first version of a collection of notes aimed to capture the basics of the methods and techniques from the areas of Predictive Analytics and Data Science. We focus on the domains of Finance and Econometrics. We employ **R** language to code all our sample scripts.
 
 ### Outline
+
+#### A short introduction to Data Science and R
 
 ### Part I - Statistics
 
@@ -52,3 +54,8 @@ This is the very first version of a collection of notes aimed to capture the bas
 #### 3.2 Databases, Datawarehousing & Data Lakes
 
 #### 3.2 Introduction to Data Visualisation
+
+### Annex
+
+#### Setting up R and RStudio 
+
