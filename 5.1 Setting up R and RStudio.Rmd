@@ -45,7 +45,7 @@ Once you have completed the installations, you can open *RStudio* as any other a
 
 There is a fourth pane that we will introduce later, the *R script and data view* window.
 
-![Predefined view of R Studio](./figures/Fig_0_1_Predefined_view_of_RStudio.png)
+![Predefined view of R Studio](./figures/Fig_1_1_Predefined_view_of_RStudio.png)
 
 ### The Console
 
@@ -143,7 +143,7 @@ Your path might be a slighly different depending on the set up of your computer.
 
 There are many ways to run your program, one of the options is by clicking in the *Source* button in the top right corner of the *R Script* pane as indicated in the figure below.
 
-![Source your R script](./figures/Fig_0_2_source_your_R_script.png)
+![Source your R script](./figures/Fig_1_2_source_your_R_script.png)
 
 Another way of running your program is calling it from the *Console* directly. You can do this even when your *R script* is closed. Close your script and then use `source` function to load your program from file. For example:
 

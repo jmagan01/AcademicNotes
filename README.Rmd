@@ -23,11 +23,11 @@ This is the very first version of a collection of notes aimed to capture the bas
 
 #### 2.2 Normal Distribution
 
-#### 2.2 Hypothesis testing
+#### 2.3 Hypothesis testing
 
-#### 2.3 Linear regression
+#### 2.4 Linear regression
 
-#### 2.4 Introduction to Time Series
+#### 2.5 Introduction to Time Series
 
 ### Part III - Machine Learning
 
@@ -55,9 +55,9 @@ This is the very first version of a collection of notes aimed to capture the bas
 
 #### 4.2 Databases, Datawarehousing & Data Lakes
 
-#### 4.2 Introduction to Data Visualisation
+#### 4.3 Introduction to Data Visualisation
 
 ### Annex
 
-#### [Setting up R and RStudio](https://github.com/jmagan01/DataScienceHandbook/blob/master/Setting%20up%20R%20and%20RStudio.Rmd) 
+#### [Setting up R and RStudio](https://github.com/jmagan01/DataScienceHandbook/blob/master/5.1%20Setting%20up%20R%20and%20RStudio.Rmd) 
 
