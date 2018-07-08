@@ -15,9 +15,9 @@ This is the very first version of a collection of notes aimed to capture the bas
 
 ### Part I - Statistics
 
-#### 1.1 Basic Statistics
+**1.1 Basic Statistics**
 
-#### 1.2 Normal Distribution
+**1.2 Normal Distribution**
 
 #### 1.2 Hypothesis testing
 
