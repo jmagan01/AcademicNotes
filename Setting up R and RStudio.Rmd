@@ -45,7 +45,7 @@ Once you have completed the installations, you can open *RStudio* as any other a
 
 There is a fourth pane that we will introduce later, the *R script and data view* window.
 
-![Predefined view of R Studio](DataScienceHandbook/figures/Fig1.0 Predefined view of RStudio.png)
+[Predefined view of R Studio](./figures/Fig0_1Predefined_view_of_RStudio.png)
 
 ### The Console
 
