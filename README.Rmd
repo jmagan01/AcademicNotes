@@ -5,6 +5,6 @@ date: "Summer 2018"
 output: html_document
 ---
 
-## Academic Notes Project
+## Data Science Handbook
 
-Welcome to the project of Academic Notes. This is the very first version of a collection of notes aimed to capture an initial review of the methods available in the area of Predictive Analytics from both, Finance Econometrics and Data Science techniques.
+Welcome to the 'Data Science Handbook' project. This is the very first version of a collection of notes aimed to capture an initial review of the methods available in the area of Predictive Analytics from both, Finance Econometrics and Data Science techniques.
