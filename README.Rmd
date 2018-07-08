@@ -8,3 +8,5 @@ output: html_document
 ## Data Science Handbook
 
 Welcome to the 'Data Science Handbook' project. This is the very first version of a collection of notes aimed to capture an initial review of the methods available in the area of Predictive Analytics from both, Finance Econometrics and Data Science techniques.
+
+[a link](https://github.com/jmagan01/DataScienceHandbook/blob/master/Outline.Rmd)
