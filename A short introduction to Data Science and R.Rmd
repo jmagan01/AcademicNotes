@@ -1,5 +1,5 @@
 ---
-title: "A short introduction to Data Science and R"
+title: "1.1 A short introduction to Data Science and R"
 author: "MSc J. Manuel Magana Arias"
 date: "Summer 2018"
 output: html_document
