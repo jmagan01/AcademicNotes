@@ -1,11 +1,6 @@
----
-title: "1.1 A short introduction to Data Science and R"
-author: "MSc J. Manuel Magana Arias"
-date: "Summer 2018"
-output: html_document
----
+# Part I - Introduction
 
-## 1.1 A short introduction to Data Science and R
+## 1.1 A short introduction to Data Science and R {#intro}
 
 There is not a formal definition for **Data Science**, however it can be seen as the intersection between statistics, computer science and any knowledge domain that demands analysis of big volumes of information such as Banking, Finance, Economics, Genomics, Astronomics, etc.
 
@@ -18,7 +13,6 @@ In order to get a computer to do something, you have to *tell* it what you want 
 In the same way that we, humans, communicate with each other using a specific language such as English, Spanish or French, computers also communicate (unconsciously) with other computers and human beings through the use of a *programming language*. All computer programs are written in a *programming language*. 
 
 Programming languages vary a lot, and there are many of them, some are more intuitive than others, and not all of them serve the same purpose. For example, some programming languages such as *PHP* are ideal to create dynamic web pages, some others like *C* and *C++* are great for robotics and to automate industrial processes, while others are better to create quantitative algorithms for Statistics, Finance and Economics, the language we will use in this text is one of those and is named *R*.
-
 
 *R* is one the more popular programming languages in Data Science, the other one worth to learn is *Python*. Both are open and free software, which means you can create, modify and share any program coded in those languages for free. There is no need to pay any license fee. 
 

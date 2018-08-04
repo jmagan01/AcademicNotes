@@ -1,0 +1,35 @@
+# Part III - Machine Learning {#ML}
+
+Work in progress
+
+## 3.1 Multiple regression {#multipleregression}
+
+Work in progress
+
+## 3.2 Multicollinearity {#multicollinearity}
+
+## 3.3 Logistic regression {#logisticregression}
+
+## 3.4 Cross Validation {#crossvalidation}
+
+Work in progress
+
+## 3.5 Decision Trees {#decisiontrees}
+
+Work in progress
+
+## 3.6 Resampling methods: Bootstrapping & Bagging {#resamplingmethods}
+
+Work in progress
+
+## 3.7 Support Vector Machines {#SVM}
+
+Work in progress
+
+## 3.8 Clustering Methods {#clustering}
+
+Work in progress
+
+## 3.9 Dimension Reduction Methods {#DRM}
+
+Work in progress

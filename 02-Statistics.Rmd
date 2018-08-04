@@ -1,0 +1,21 @@
+# Part II - Statistics {#statistics}
+
+Work in progress
+
+## 2.1 Basic Statistics {#basicstatistics}
+
+Work in progress
+
+## 2.2 Normal Distribution {#normaldistribution}
+
+Work in progress
+
+## 2.3 Hypothesis testing {#hypothesistesting}
+
+Work in progress
+
+## 2.4 Linear regression {#linearregression}
+
+Work in progress
+
+## 2.5 Introduction to Time Series {#timeseries}
