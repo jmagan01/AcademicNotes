@@ -125,6 +125,11 @@
 </div>
 <div id="logisticregression" class="section level2">
 <h2><span class="header-section-number">3.3</span> Logistic regression</h2>
+<p>Logistic regression is a useful tool to model the probability of the dependent variable to belong to a particular (binary) category. Thus, logistic regression is part of the group of techniques typically used for classification problems. More formally, logistic regression models the relationship between <span class="math inline">\(p(X) = Pr(Y=1|X)\)</span>, where <span class="math inline">\(p(X)\)</span> denotes the the probability for <span class="math inline">\(Y\)</span> to be True given a specific value of <span class="math inline">\(X\)</span>.</p>
+<p>You might wonder why not to use linear regression instead where <span class="math inline">\(p(X) = {\beta_0} + {\beta_1} X\)</span>, this is a valid question however this function is of little help to make predictions about the category of a variable given that it’s codomain includes the all the real numbers <span class="math inline">\(\mathbb{R}\)</span> from <span class="math inline">\(-{\infty}\)</span> to <span class="math inline">\({\infty}\)</span>. That is <span class="math inline">\(f: \mathbb{R} \mapsto \mathbb{R}\)</span>. How would you interpret a negative probability? what would be the meaning of a very large probability number such as 9000%?</p>
+<p>In classification problems we are interested on predicting if an event will happen or not, if an individual belogs to group A or group B, or whether the market will move downward or upward, all those are examples of binary classification problems for which we need a mathematical function which output ranges between 0 and 1 for all the domain of <span class="math inline">\(X\)</span>, more formally <span class="math inline">\(f: \mathbb{R} \mapsto (0,1)\)</span>. In other words the output value is always a probability between 0 and 1. One of the functions that satisfy this condition is the logistic function defined below:</p>
+<p><span class="math display">\[p(X) = \frac{e^{{\beta_0} + {\beta_1} X}}{1+e^{{\beta_0} + {\beta_1} X}}\]</span> , which can also be expressed as follows:</p>
+<p><span class="math display">\[\frac{p(X)}{1-p(X)} = e^{{\beta_0} + {\beta_1} X}\]</span> The left side of the equation above is also known as <em>the odds</em></p>
 </div>
 <div id="crossvalidation" class="section level2">
 <h2><span class="header-section-number">3.4</span> Cross Validation</h2>
@@ -199,6 +204,19 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

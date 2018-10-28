@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Data Science Handbook</title>
+  <meta name="description" content="This is the very first version of a collection of notes aimed to capture the basics of the methods and techniques from the areas of Predictive Analytics and Data Science. We focus on the domains of Finance and Econometrics. We employ the R language to code our sample scripts. The output format for this example is bookdown::gitbook.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Data Science Handbook" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is the very first version of a collection of notes aimed to capture the basics of the methods and techniques from the areas of Predictive Analytics and Data Science. We focus on the domains of Finance and Econometrics. We employ the R language to code our sample scripts. The output format for this example is bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Data Science Handbook" />
+  
+  <meta name="twitter:description" content="This is the very first version of a collection of notes aimed to capture the basics of the methods and techniques from the areas of Predictive Analytics and Data Science. We focus on the domains of Finance and Econometrics. We employ the R language to code our sample scripts. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="MSc J. Manuel Magana A., PhD Alberto Dorantes">
+
+
+<meta name="date" content="2018-10-28">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="normaldistribution.html">
+<link rel="next" href="linearregression.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a></li>
+<li class="part"><span><b>Part I - Introduction</b></span></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> A short introduction to Data Science and R</a></li>
+<li class="part"><span><b>Part II - Statistics {#statistics}</b></span></li>
+<li class="chapter" data-level="2" data-path="basicstatistics.html"><a href="basicstatistics.html"><i class="fa fa-check"></i><b>2</b> Basic Statistics</a></li>
+<li class="chapter" data-level="3" data-path="normaldistribution.html"><a href="normaldistribution.html"><i class="fa fa-check"></i><b>3</b> Normal Distribution</a></li>
+<li class="chapter" data-level="4" data-path="hypothesistesting.html"><a href="hypothesistesting.html"><i class="fa fa-check"></i><b>4</b> Hypothesis testing</a></li>
+<li class="chapter" data-level="5" data-path="linearregression.html"><a href="linearregression.html"><i class="fa fa-check"></i><b>5</b> Linear regression</a></li>
+<li class="chapter" data-level="6" data-path="timeseries.html"><a href="timeseries.html"><i class="fa fa-check"></i><b>6</b> Introduction to Time Series</a></li>
+<li class="part"><span><b>Part III - Machine Learning {#ML}</b></span></li>
+<li class="chapter" data-level="7" data-path="multipleregression.html"><a href="multipleregression.html"><i class="fa fa-check"></i><b>7</b> Multiple regression</a></li>
+<li class="chapter" data-level="8" data-path="multicollinearity.html"><a href="multicollinearity.html"><i class="fa fa-check"></i><b>8</b> Multicollinearity</a></li>
+<li class="chapter" data-level="9" data-path="logisticregression.html"><a href="logisticregression.html"><i class="fa fa-check"></i><b>9</b> Logistic regression</a><ul>
+<li class="chapter" data-level="9.1" data-path="logisticregression.html"><a href="logisticregression.html#crossvalidation"><i class="fa fa-check"></i><b>9.1</b> Cross Validation</a></li>
+<li class="chapter" data-level="9.2" data-path="logisticregression.html"><a href="logisticregression.html#decisiontrees"><i class="fa fa-check"></i><b>9.2</b> Decision Trees</a></li>
+<li class="chapter" data-level="9.3" data-path="logisticregression.html"><a href="logisticregression.html#resamplingmethods"><i class="fa fa-check"></i><b>9.3</b> Resampling methods: Bootstrapping &amp; Bagging</a></li>
+<li class="chapter" data-level="9.4" data-path="logisticregression.html"><a href="logisticregression.html#SVM"><i class="fa fa-check"></i><b>9.4</b> Support Vector Machines</a></li>
+<li class="chapter" data-level="9.5" data-path="logisticregression.html"><a href="logisticregression.html#clustering"><i class="fa fa-check"></i><b>9.5</b> Clustering Methods</a></li>
+<li class="chapter" data-level="9.6" data-path="logisticregression.html"><a href="logisticregression.html#DRM"><i class="fa fa-check"></i><b>9.6</b> Dimension Reduction Methods</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="DSapps.html"><a href="DSapps.html"><i class="fa fa-check"></i><b>10</b> Part IV - Data Science applications</a><ul>
+<li class="chapter" data-level="10.1" data-path="DSapps.html"><a href="DSapps.html#introduction-to-big-data-applications"><i class="fa fa-check"></i><b>10.1</b> Introduction to Big Data Applications</a></li>
+<li class="chapter" data-level="10.2" data-path="DSapps.html"><a href="DSapps.html#databases-datawarehousing-data-lakes"><i class="fa fa-check"></i><b>10.2</b> Databases, Datawarehousing &amp; Data Lakes</a></li>
+<li class="chapter" data-level="10.3" data-path="DSapps.html"><a href="DSapps.html#introduction-to-data-visualisation"><i class="fa fa-check"></i><b>10.3</b> Introduction to Data Visualisation</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="Annex.html"><a href="Annex.html"><i class="fa fa-check"></i><b>11</b> Part V - Annex</a><ul>
+<li class="chapter" data-level="11.1" data-path="Annex.html"><a href="Annex.html#SetupR"><i class="fa fa-check"></i><b>11.1</b> Setting up R and RStudio</a><ul>
+<li class="chapter" data-level="11.1.1" data-path="Annex.html"><a href="Annex.html#setting-up-r"><i class="fa fa-check"></i><b>11.1.1</b> Setting up R</a></li>
+<li class="chapter" data-level="11.1.2" data-path="Annex.html"><a href="Annex.html#setting-up-rstudio"><i class="fa fa-check"></i><b>11.1.2</b> Setting up RStudio</a></li>
+<li class="chapter" data-level="11.1.3" data-path="Annex.html"><a href="Annex.html#working-in-rstudio"><i class="fa fa-check"></i><b>11.1.3</b> Working in RStudio</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Science Handbook</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="hypothesistesting" class="section level1">
+<h1><span class="header-section-number">4</span> Hypothesis testing</h1>
+<p>Work in progress</p>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="normaldistribution.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="linearregression.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
