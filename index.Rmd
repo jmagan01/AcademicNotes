@@ -12,7 +12,7 @@ link-citations: yes
 description: "This is the very first version of a collection of notes aimed to capture the basics of the methods and techniques from the areas of Predictive Analytics and Data Science. We focus on the domains of Finance and Econometrics. We employ the R language to code our sample scripts. The output format for this example is bookdown::gitbook."
 ---
 
-# Data Science Handbook
+# Data Science Handbook {-}
 
 Welcome to the 'Data Science Handbook' project. 
 
