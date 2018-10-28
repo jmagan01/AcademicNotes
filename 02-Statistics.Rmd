@@ -2,22 +2,22 @@
 
 Work in progress
 
-## 2.1 Basic Statistics {#basicstatistics}
+## Basic Statistics {#basicstatistics}
 
 Work in progress
 
-## 2.2 Normal Distribution {#normaldistribution}
+## Normal Distribution {#normaldistribution}
 
 The std deviation of normal distribution variable is... 
 
 Work in progress
 
-## 2.3 Hypothesis testing {#hypothesistesting}
+## Hypothesis testing {#hypothesistesting}
 
 Work in progress
 
-## 2.4 Linear regression {#linearregression}
+## Linear regression {#linearregression}
 
 Work in progress
 
-## 2.5 Introduction to Time Series {#timeseries}
+## Introduction to Time Series {#timeseries}

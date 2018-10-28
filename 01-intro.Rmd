@@ -1,6 +1,6 @@
 # Part I - Introduction
 
-## 1.1 A short introduction to Data Science and R {#intro}
+## A short introduction to Data Science and R {#intro}
 
 There is not a formal definition for **Data Science**, however it can be seen as the intersection between statistics, computer science and any knowledge domain that demands analysis of big volumes of information such as Banking, Finance, Economics, Genomics, Astronomics, etc.
 

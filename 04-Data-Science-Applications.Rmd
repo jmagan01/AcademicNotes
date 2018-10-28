@@ -2,14 +2,14 @@
 
 Work in progress
 
-## 4.1 Introduction to Big Data Applications
+## Introduction to Big Data Applications
 
 Work in progress
 
-## 4.2 Databases, Datawarehousing & Data Lakes
+## Databases, Datawarehousing & Data Lakes
 
 Work in progress
 
-## 4.3 Introduction to Data Visualisation
+## Introduction to Data Visualisation
 
 Work in progress

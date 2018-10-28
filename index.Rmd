@@ -2,9 +2,7 @@
 title: "Data Science Handbook"
 author: "MSc J. Manuel Magana A., PhD Alberto Dorantes"
 date: "`r Sys.Date()`"
-#output: bookdown::gitbook
-output:
-  bookdown::gitbook: default
+output: bookdown::gitbook
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike
@@ -12,8 +10,6 @@ link-citations: yes
 description: "This is the very first version of a collection of notes aimed to capture the basics of the methods and techniques from the areas of Predictive Analytics and Data Science. We focus on the domains of Finance and Econometrics. We employ the R language to code our sample scripts. The output format for this example is bookdown::gitbook."
 ---
 
-# Data Science Handbook {-}
+# Welcome {-}
 
-Welcome to the 'Data Science Handbook' project. 
-
-This is the very first version of a collection of notes aimed to capture the basics of the methods and techniques from the areas of Predictive Analytics and Data Science algorithms. We focus on the domains of Finance and Econometrics. We employ *R* language to code all our sample scripts.
+Welcome to the 'Data Science Handbook' project. This is the very first version of a collection of notes aimed to capture the basics of the methods and techniques in the areas of Predictive Analytics and Data Science. We focus on the domains of Finance and Econometrics and employ *R* as programming language to code our sample scripts.

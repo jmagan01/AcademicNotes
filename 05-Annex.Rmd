@@ -2,7 +2,7 @@
 
 Work in progress
 
-## 5.1 Setting up R and RStudio {#SetupR}
+## Setting up R and RStudio {#SetupR}
 
 ### Setting up R
 
