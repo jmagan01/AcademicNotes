@@ -2,7 +2,9 @@
 title: "Data Science Handbook"
 author: "MSc J. Manuel Magana A., PhD Alberto Dorantes"
 date: "`r Sys.Date()`"
-output: bookdown::gitbook
+#output: bookdown::gitbook
+output:
+  bookdown::gitbook: default
 site: bookdown::bookdown_site
 documentclass: book
 biblio-style: apalike

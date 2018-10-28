@@ -1,6 +1,4 @@
----
 book_filename: bookdown
 repo: https://github.com/jmagan01/DataScienceHandbook
 output_dir: docs
 clean: [packages.bib, bookdown.bbl]
----
