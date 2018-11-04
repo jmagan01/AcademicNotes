@@ -10,17 +10,19 @@ Work in progress
 
 ## Logistic regression {#logisticregression}
 
-Logistic regression is a useful tool to model the probability of the dependent variable to belong to a particular (binary) category. Thus, logistic regression is part of the group of techniques typically used for classification problems. More formally, logistic regression models the relationship between $p(X) = Pr(Y=1|X)$, where $p(X)$ denotes the the probability for $Y$ to be True given a specific value of $X$.
+Logistic regression is a useful tool to model the probability of the dependent variable to belong to a particular (binary) category. Thus, logistic regression is part of the group of techniques typically used for classification problems. More formally, logistic regression models the relationship between $p(X) = Pr(Y=1|X)$, where $p(X)$ denotes the probability for $Y$ to be True given a specific value of $X$.
 
-You might wonder why not to use linear regression instead where $p(X) = {\beta_0} + {\beta_1} X$, this is a valid question however this function is of little help to make predictions about the category of a variable given that it's codomain includes the all the real numbers $\mathbb{R}$ from $-{\infty}$ to ${\infty}$. That is $f: \mathbb{R} \mapsto \mathbb{R}$. How would you interpret a negative probability? what would be the meaning of a very large probability number such as 9000%? 
+You might wonder why not to use linear regression instead, remember that for linear regression $p(X)$ is defined as $p(X) = {\beta_0} + {\beta_1} X$ which is of little help to make predictions about the category of a variable given that it's codomain includes the all the real numbers $\mathbb{R}$ from $-{\infty}$ to ${\infty}$. That is $f: \mathbb{R} \mapsto \mathbb{R}$. How would you interpret a negative probability? what would be the meaning of a very large probability number such as 9000%? 
 
-In classification problems we are interested on predicting if an event will happen or not, if an individual belogs to group A or group B, or whether the market will move downward or upward, all those are examples of binary classification problems for which we need a mathematical function which output ranges between 0 and 1 for all the domain of $X$, more formally $f: \mathbb{R} \mapsto (0,1)$. In other words the output value is always a probability between 0 and 1. One of the functions that satisfy this condition is the logistic function defined below:
+In classification problems we are interested on predicting whether an event will happen or not, if an individual belogs to group A or group B, or whether the market will move downward or upward. All those are examples of binary classification problems for which we need a mathematical function which output ranges between 0 and 1 for all the domain of $X$, more formally $f: \mathbb{R} \mapsto (0,1)$. In other words, regardless the value of $X$ the output value of $f$ is always a number between 0 and 1. One of the functions that satisfy this condition is the logistic function defined below:
 
 $$p(X) = \frac{e^{{\beta_0} + {\beta_1} X}}{1+e^{{\beta_0} + {\beta_1} X}}$$
 , which can also be expressed as follows:
 
 $$\frac{p(X)}{1-p(X)} = e^{{\beta_0} + {\beta_1} X}$$
-The left side of the equation above is also known as *the odds*
+The left side of the equation above is also known as *the odds* of the event. The odds describe the likeliness that an event will occur and can take any value from zero to infinite. An odds value close to zero indicates that the event is very unlikely to happen, the higher the odds value the higher the likeliness for the vent to happen.
+
+The likeliness of the odds is not exactly the same as the propability for the event to happen, remember that probability is denoted by $p(X)$ and lies between zero to one. For example, let's say that the probability $p(X)$ for a medical diagnostic to be correct is 80% this will imply an odds value of 4 given that $\frac{0.8}{1-0.8} = 4$. In other words, 8 in 10 people with an odds of 4 will receive the correct diagnostic.
 
 ## Cross Validation {#crossvalidation}
 
